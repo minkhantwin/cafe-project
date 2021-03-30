@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <title>Pig game</title>
+    </head>
+    <body>
+        <div class="platform">
+            <div class = "mainBlock">
+            <div class="panel-1 active">
+                <div class = "player-name" id = "name1">PLAYER 1</div>
+                <font class="player1-score" id="globalScore1">43</font>
+                <div class="scoreBlock">
+                    <font style="font-size: 12px">CURRENT</font><br>
+                    <font id='currentScore-1'>11</font>
+                </div>
+            </div>
+            
+            <div class = "panel-2">
+                <div class = "player-name" id = "name2">PLAYER 2</div>
+                <font class="player2-score" id="globalScore2">34</font>
+                <div class="scoreBlock">
+                    <font style="font-size: 12px">CURRENT</font><br>
+                    <font id='currentScore-2'>11</font>
+                </div>
+            </div>
+            
+        </div>
+            <button class="btn_new"><i class="ion-iso-plus-outline"></i>NEW GAME</button>
+            
+            <img class="dice1" src="dice-5.png">
+            <img class="dice2" src="dice-5.png">
+            
+            <button class="btn_rollDice"><i class="ion-iso-outline"></i>ROLL DICE</button>
+            
+            <button class="btn_holdon"><i class="ion-iso-outline"></i>HOLD</button>
+            
+            <input type="number" placeholder="Final Score" id="final-score">
+            
+        </div>              
+        
+    
+    </body>
+    
+    <script src="app.js">   </script>
+    
+</html>

@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "web-hosting-7b3bb",
+    "staging": "newapp-dadd7"
+  }
+}

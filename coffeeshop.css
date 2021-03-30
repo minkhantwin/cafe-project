@@ -1,0 +1,320 @@
+header
+{
+
+	margin-top: 0px;
+	width: 100%;
+	background: linear-gradient( rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url('top_bg.jpg');
+	height: 420px;
+	background-position: bottom;
+	background-size: 100% 440px;
+}
+#button_container{
+	margin-left: 830px;
+	margin-top: 50px;
+}
+#button_container a{
+	font-family:Berlin Sans FB Demi;
+	border-right : 1px solid;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 16px;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	width: 120px;
+	height: 40px;
+	transition-property: font-size,color;
+	transition-duration: .3s,.3s;
+
+}
+#button_container a:hover{
+	font-size: 22px;
+	color: #F2B186;
+}
+font.welcome{
+	font-size: 25px;
+	color: white;
+}
+#content_container{
+	margin-top: 30px;
+	width: 100%;
+	height: 100px;
+
+
+}
+.hrbeforeNice{
+	float: left;
+	margin-top: 3px;
+	height: 15px;
+	width: 110px;
+	margin-right: 4px;
+
+}
+.home_left hr{
+	width: 65%;
+	color: #CACACA;
+}
+div.starthr{
+	margin-left: 300px;
+	float: left;
+	margin-top: 3px;
+	height: 30px;
+	width: 200px;
+	margin-right: 4px;
+}
+hr{
+	size: 2px;
+}
+div.endhr{
+	margin-left: 4px;
+	margin-top: 2px;
+	margin-right: 4px;
+	float: left;
+	height: 30px;
+	width: 200px
+}
+.head_container{
+	
+	text-align: center;
+	width: 100%;
+	padding-top: 80px;
+	height: 100px;
+}
+font.coffshop{
+	width: 100%;
+	margin-bottom: 10px;
+	float: left;
+	color: white;
+	height: 20px;
+	display: block;
+	font-size: 18px;
+	display: block;
+	text-align: center;
+}
+font.text{
+	color: white;
+	float: left;
+	font-size: 18px;
+	height: 20px;
+}
+font.name
+{
+	font-family: Edwardian Script ITC;
+	color: white;
+	font-size: 80px;
+}
+footer
+{
+	margin-left: 0px;
+	clear: both;
+	width: 100%;
+	height: 220px;
+	background-color: gray;
+}
+footer p{
+	font-size: 17px;
+	text-align: center;
+}
+.footerhr{
+	clear: both;
+	height: 30px;
+	width: 100%;
+	padding-top: 60px;
+}
+address{
+	height: 60px;
+	width: 100%;
+}
+.emailaddress{
+	font-family: Berlin Sans FB;
+	color:	#3A3A3A;
+	float: left;
+	width: 580px;
+	height: 60px;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.location{
+	font-family: Berlin Sans FB;
+	color:	#3A3A3A;
+	float: left;
+	height: 60px;
+	width: 700px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.copyright{
+	color: white;
+	text-align: center;
+	width: 100%;
+	height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+#coffeeicondiv{
+	float: right;
+	background-image: url(coffeeIcon.png);
+	background-size: 320px 320px;
+	width: 320px;
+	opacity: .8;
+	height: 280px;
+	margin-top: 40px;
+	margin-right: 80px;
+}
+
+.home_right{
+	margin-top: 30px;
+	float: left;
+	width: 65%;
+	height: 900px;
+	padding-left: 26px;
+}
+.home_left{
+	margin-top: 30px;
+	width: 30%;
+	height: 900px;
+	float: left;
+	border-right: 2px solid gray;
+
+}
+.home_left img{
+	width: 300px;
+	height: 150px;
+	position: absolute;
+	border-radius: 35px;
+	transition-property: opacity;
+	transition-duration: .4s;
+	transition-timing-function: ease-in;
+}
+.home_left img:hover{
+	opacity: 0;
+}
+.shorttext{
+	font-family: Arial Rounded MT Bold;
+	font-size: 20px;
+	color: white;
+}
+.note{
+	margin-left: 30px;
+	margin-top: 20px;
+	border: 6px solid #ADD8E6;
+	border-radius: 40px;
+	width: 300px;
+	height: 150px;
+}
+.home_left font{
+	z-index: -1;
+	position: absolute;
+	border-radius: 35px;
+	line-height: 150px;
+	display: block;
+	text-align: center;
+	background-color: lightblue;
+	width: 300px;
+	height: 150px;
+
+}
+#coffeeintro{
+	color: #8F5732;
+	font-size: 19px;
+	font-family: Monotype Corsiva;
+	line-height: 30px;
+}
+h1{
+	
+	padding-left: 155px;
+	font-size: 30px;
+}
+h4{
+	text-align: center;
+	display: block;
+	padding-top: 20px;
+	width: 160px;
+	height: 30px;
+	font-size: 25px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	background-color: #BA8554;
+	color: white;
+}
+.aimbox{
+	font-family: Berlin Sans FB;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin-top: -34px;
+	display: block;
+	color: white;
+	line-height: 25px;
+	width: 750px;
+	font-size: 18px;
+	height: 50px;
+	padding: 20px;
+	background-color: #BA8554;
+
+}
+div.abovefooter{
+	width: 100%;
+	height: 30px;
+}
+section{
+	margin-bottom: 30px;
+	height: 940px;
+	width: 100%;
+}
+h3{
+	color: #A06238;
+	font-family: Script MT Bold;
+	line-height: 30px;
+	padding-left: 34px;
+	font-size: 30px;
+	padding-top: 0px;
+}
+.niceto{
+	color: #3D2516;
+	font-size: 18px;
+	font-family: Script MT Bold;
+}
+.googlemap{
+	margin-top: 40px;
+	margin-left: 50px;
+	height: 366px;
+	width: 710px;
+	background-color: #F2F1EF;
+	padding: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 190px;
+}
+.googlemap img{
+	margin-top: -40px;
+	width:400px;
+	height: 300px;
+	border-radius: 5px;
+	margin-left: 80px;
+	z-index: -1;
+}
+.wearehere{
+	display: block;
+	width: 200px;
+	height: 80px;
+	font-size: 26px;
+	margin-top: 30px;
+	margin-left: 34px;
+}
+.googlemap a{
+	color: #5D5D5D;
+}
+.googlemap a:hover{
+	color:black;
+}

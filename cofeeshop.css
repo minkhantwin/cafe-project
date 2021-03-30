@@ -1,0 +1,12 @@
+#mainbody{
+	background-image: ;
+}
+#head_container{
+	margin-left: 40px;
+}
+#head_container a{
+	text-decoration: none;
+	display: block;
+	background-color: gray;
+
+}
